@@ -1,0 +1,76 @@
+* {
+    text-align: center;
+    border: 1px solid #FFFFFC;
+    color:blueviolet;
+}
+
+
+body {
+    max-width: max-content;
+    margin: 0 auto;
+    background: linear-gradient(#FFADAD, #FFD6A5, #FDFFB6, #CAFFBF, #9BF6FF, #A0C4FF, #BDB2FF, #FFC6FF);
+    /* background-repeat:repeat; */
+}
+
+.banner {
+    height: 365px;
+    background-image: url(./images/Panda-IsFree_SweetP-Hawlucha.jpeg);
+    margin-bottom: 20px;
+    background-size: cover; 
+    /* 100% auto - stretches to fit width and auto calculates height
+    /* cover fills whole container
+    Make sure width is less than 1400*/
+    background-repeat: no-repeat;
+    background-position: center;
+}   /*First value sets the x-axis (left and right)
+    Second value sets the y-axis (up and down) */
+
+.banner p{
+    color: #9bf6ff;
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
+    margin-top: 180px;
+}
+
+.container {
+    max-width: 490px;
+    margin: 0 auto; 
+    /*auto centers the element on the left and right
+    first value top/bottom, second value right/left */
+}
+
+.box {
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 70px;
+    background-image: url(https://drive.google.com/thumbnail?id=1foMX223oxMEWiN5m1QU7SI3635CIw5yT&sz=1000);
+    width: 330px;
+    height: 300px;
+}
+
+.box p{
+    margin-top: 135px;
+    font-size: 24px;
+    color: #ffadad;
+}
+
+p {
+    font-size: larger;
+}
+
+a {
+    text-decoration: overline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+  font-family: "bitcount grid single";
+  text-align: right;
+  padding: 5px;
+  border: 3px solid #ffadad;
+  border-top: 3px dashed #ffadad;
+}
+
