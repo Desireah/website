@@ -20,7 +20,7 @@ body {
 
 header {
   height: 365px;
-  background-image: url(/des-desk.jpeg);
+  background-image: url(des-desk.jpeg);
   background-size: cover;
   background-position: center;
   text-align: center;
