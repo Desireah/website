@@ -3,9 +3,7 @@
 * {
   line-height: 1.5;
   border: 1px solid #00f5d4;
-  
 }
-
 
 body {
   max-width: 500.38px;
@@ -13,7 +11,7 @@ body {
   font-family:
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
- background: linear-gradient(#9b5de5, #f15bb5, #fee440, #00bbf9, #00f5d4);
+  background: linear-gradient(#9b5de5, #f15bb5, #fee440, #00bbf9, #00f5d4);
 }
 
 .title {
@@ -22,7 +20,7 @@ body {
 
 header {
   height: 365px;
-  background-image: url(/desireah-eustache-capstone/des-desk.jpeg);
+  background-image: url(/des-desk.jpeg);
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -30,13 +28,13 @@ header {
   margin-bottom: 20px;
 }
 
-h1{
+h1 {
   background-color: #00f5d4;
   color: #f15bb5;
   font-size: 31px;
   font-weight: normal;
 }
-h2{
+h2 {
   color: #f15bb5;
   background-color: #00f5d4;
   text-align: center;
@@ -44,33 +42,36 @@ h2{
   font-weight: normal;
   font-style: italic;
 }
-h3{
+h3 {
   font-size: 19px;
   font-weight: 600;
   text-align: center;
 }
-h4{
+h4 {
   font-size: 17px;
   font-weight: normal;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin-bottom: 10px;
   margin-top: 10px;
 }
-h4, h5, h6 {
+h4,
+h5,
+h6 {
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-p{
-line-height: 1.5;
+p {
+  line-height: 1.5;
 }
 
 a {
-  color:rgb(255, 0, 0);
-  text-decoration:overline;
-  
+  color: rgb(255, 0, 0);
+  text-decoration: overline;
 }
 
 a:hover {
@@ -84,12 +85,12 @@ footer {
   border: 3px solid #c92b6a;
   border-top: 3px dashed #c92b6a;
 }
-footer a{
-  color: #c92b6a
+footer a {
+  color: #c92b6a;
 }
 
-footer p{
+footer p {
   color: #f15bb5;
 }
 
-/* This is a CSS comment on a style sheet - doesn't matter where you put the comment*/ 
+/* This is a CSS comment on a style sheet - doesn't matter where you put the comment*/
